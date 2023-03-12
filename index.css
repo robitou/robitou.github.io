@@ -2,19 +2,27 @@
     margin: 0;
     padding: 0;
 }
-.header{
-    background-color: aqua;
-    width: 100%;
-    height: 80px;
+body{
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.header{
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     min-width: 800px;
     flex-wrap: wrap;
+    border-radius: 5px;
 }
-.header h1{
+.header h3{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 10px 0px 10px 0px;
+    color: #1B262C;
 }
 .barrita a{
     text-decoration: none;
@@ -23,12 +31,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .cuerpo{
-   background-color: blueviolet;
+   background-color: white;
    width: 100%;
    height: 50vh;
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
+   justify-content: space-between;
    min-width: 800px;
    flex-wrap: wrap;
 
@@ -37,13 +45,12 @@
     width: 300px;
     height: 220px;
     margin: 30px;
-    background-color: beige;
+    background-color: white;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.9s;
+    transition: all 0.5s;
 }
 .tarjeta a{
     text-decoration: none;
@@ -52,10 +59,20 @@
     margin-top: 5px;
 }
 .tarjeta:hover{
-    width: 320px;
-    height: 230px;
+    width: 400px;
+    height: 300px;
+    box-shadow:  0px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.tarjeta:hover > .linke{
+    display: block;
 }
 
 a:visited{
     color: blue;
+}
+.tarjeta .linke{
+    display: none;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 125px;
 }
