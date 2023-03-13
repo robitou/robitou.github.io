@@ -18,9 +18,11 @@ body{
 ul{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: end;
+    align-items: end;
     margin-top: -30px;
     text-decoration: none;
+    margin-right: 30px;
 }
 ul a{
     text-decoration: none;
@@ -120,6 +122,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    min-width: 800px;
 }
 .nombre{
     margin-top: 30px;
