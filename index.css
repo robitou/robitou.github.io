@@ -125,7 +125,10 @@ footer{
     min-width: 800px;
 }
 .nombre{
-    margin-top: 30px;
+        font-size: 20px;
+        margin-top: 40px;
+        font-weight: bold;
+        font-family: 'Roboto Condensed', sans-serif ';
 }
 .tarjeta .linke:hover{
     background-color: #0f132eb0;
