@@ -89,9 +89,7 @@ li:hover{
     border: none;
 }
 
-a:visited{
-    color: blue;
-}
+
 .tarjeta .linke{
     display: none;
     margin-top: 20px;
@@ -125,4 +123,9 @@ footer{
 }
 .tarjeta .linke:hover{
     background-color: #0f132eb0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
 }
