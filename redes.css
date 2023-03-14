@@ -60,6 +60,8 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-top: 142px;
+    min-width: 800px;
 }
 .nombre{
     font-size: 20px;
@@ -86,9 +88,10 @@ h1{
 }
 .spam{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 5px;
+    grid-template-columns: 100px 100px 100px 100px;
     gap: 100px;
+    grid-row-gap: 0cap;
+
 
 }
   
